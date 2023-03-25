@@ -1,0 +1,57 @@
+@import url('reset.import.css');
+html {overflow: auto;}
+body {font-family:'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;color:#383838;background: #f1f1f1;}
+u:lang(zh) {border-bottom: 1px solid;text-decoration: none;padding-bottom: .05em;}
+ruby rt {font-size: .56em;}
+a {color:#0645AD;}
+/*a::after {display: inline-block;width:10px;height:10px;margin-left:2px;vertical-align:2px;content:"";background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC') no-repeat 0 0;}
+*/
+del {color: #999;}
+header {padding:2.5em 0 1.5em;border-bottom: 1px solid #ddd;}
+.logo {background-image: url(images/logo.png);width:182px;height:54px;}
+.page {background:#fff;width:60em;margin:0 auto;padding:0 2em;}
+article {margin:2em 0;}
+article q {white-space: nowrap;}
+article h2 {font-weight: normal;margin:1em 0;}
+article:lang(zh) p {text-indent: 2em;}
+article:lang(zh) p:before {display: none}
+article ul,article ol {margin-left:2em;}
+article ul {list-style: none;}
+article sup {font-weight: 700;}
+article .notes {font-size: .875em;}
+:lang(zh) article blockquote,
+:lang(ja) article blockquote {
+  font-family: serif;
+	font-style: italic;
+}
+article blockquote p {
+	font-style: italic;
+}
+.ico-voice {display: inline-block;width:16px;height:16px;cursor:pointer;font:0/0 arial;color:transparent;vertical-align:middle;margin:0 3px;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAL1JREFUeNpi/P//P8NAAiZqGMLIyEgMfg/EDchiYIAnBOaD5IjBuPSj8feDrAPi80AsALcbhwHzIfJkO2A+1DJ0UAAVX4/PATDN5DoArh9HyPRD5RywOQBZ838kC8DBRoQDUPQjicODHUq/B4UCsgP+Y8NIFoCI/Xgc8B8HhoH/0DSAEcWk5AIHCjMLsv6HVM2G9CoHDlBoF7J+eUTkDJJEOGiy4aAoiOhfFFOKiQSgeG9AFgDpZRzo6hggwAB+dLmEEryeKgAAAABJRU5ErkJggg==') no-repeat 0 0;}
+.ico-voice:hover {background-position: -16px 0;}
+.introduction .photo {margin:0 0 2em 2em;border:1px solid #ccc;padding:2px;}
+footer {font-size:.75em;border-top:1px solid #ddd;padding:1em 0 2em;text-align: center;}
+.copyright {color:#999;margin:0 0 .5em;}
+code {padding:1px 3px 2px;background-color: #eee;border-radius: 2px;margin:0 2px;}
+@media only screen and (max-width:768px) {
+	:lang(zh) article blockquote, :lang(ja) article blockquote {
+		margin:.8em 0 .8em 1em;
+	}
+	header {padding:1em 0 .6em;}
+	.page {width:auto;padding-left:1em;padding-right:1em;}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),(min-resolution:2dppx) {
+  .logo {background-image: url(images/logo@2x.png);background-size: 100%;width:140px;height:40px;}
+}
+.sponsor {
+    text-align: center;
+    margin: 45px auto;
+}
+.figure {
+    width: 100%;
+    margin: 30px auto;
+}
+.sponsor img.qrcode {
+    border: 3px solid rgb(227,202,133,1);
+    max-width: 189px;
+}
