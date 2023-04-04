@@ -107,7 +107,19 @@ var _hmt = _hmt || [];
 	  <li id="ref-note-9"><a href="#ref-9">^</a> 我的微信：<code>btcwhale</code></li>
     </ol>
   </article>
-
+    <h2>留言</h2>
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://twikoo.joker.cc/', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+<br/>
   <footer role="contentinfo">
     <address class="copyright">&copy; zhufacai.net<q>朱发财</q> 2018 - 2023</address>
     <p>本站日PV<span title="含本人每天手动刷PV 99999 次">10万+</span>，托管在<q><a href="http://vercel.com/"><abbr title="Vercel 是一个零配置的静态资源和无服务器云计算(serverless)部署平台。">Vercle</abbr></a></q>上</p>
