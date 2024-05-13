@@ -12,6 +12,32 @@
   <script src="theme/han.min.js"></script>
 <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
 <script>LA.init({id:"K1YCAsJNQWDsv3Ko",ck:"K1YCAsJNQWDsv3Ko"})</script>
+<!-- 年龄计算开始 -->
+<script>
+window.onload = function() {
+    var fixedBirthday = new Date('1994-03-19');
+    var today = new Date();
+    var age = today.getFullYear() - fixedBirthday.getFullYear();
+    var m = today.getMonth() - fixedBirthday.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < fixedBirthday.getDate())) {
+        age--;
+    }
+    document.getElementById('ageDisplay').innerHTML = age;
+}
+</script>
+<!-- 年龄计算结束 -->
+<!-- 获取当前年份开始 -->
+<script>
+  // 定义一个函数来设置当前年份
+  function setCurrentYear() {
+    var currentYear = new Date().getFullYear();
+    document.getElementById('current-year').innerText = currentYear;
+  }
+ 
+  // 当页面加载完成时执行函数
+  window.onload = setCurrentYear;
+</script>
+<!-- 获取当前年份结束 -->
 </head>
 <body>
 <div class="page">
@@ -35,7 +61,7 @@
 <p>
 父母都认为我找了个好工作，时常嘱咐我一定要好好工作，将来当个官，光宗耀祖。但是我觉得拿<em>死工资</em>、<em>不包吃</em>、<em>不包住</em>、<em>不计件</em>、天天还要<em>无偿加班</em>并不是我想要的，我一心<abbr title="发财通常指获得了许多财富，也指手中拥有大量可支配的财富。"><em>只想发财</em></abbr>，所以至今还没有当上官，这点让父母比较失望。</p>
 
-<p>从小我就是一个有远大理想的人，立志长大后当一名<abbr title="科学家是指专门从事科学研究的人士，包括自然科学家和社会科学家这两大类。">科学家</abbr>，但18岁之前都没有离开过家乡，<em>见识短浅</em>，理想至今尚未实现，不过也很正常，毕竟我才29岁，还没长大。</p>
+<p style="display: inline;">从小我就是一个有远大理想的人，立志长大后当一名<abbr title="科学家是指专门从事科学研究的人士，包括自然科学家和社会科学家这两大类。">科学家</abbr>，但18岁之前都没有离开过家乡，<em>见识短浅</em>，理想至今尚未实现，不过也很正常，毕竟我才<p id="ageDisplay" style="display: inline;"></p>岁，还没长大。</p>
 
 <p>我在学校<sup><a id="ref-4" href="#ref-note-4">[4]</a></sup>学的是法学（民商法方向）专业，但认为搭建自己的网站很屌,就开始学习网站建设，于2015年注册了第一个域名<code>xiaozhu.name</code><sup><a id="ref-5" href="#ref-note-5">[5]</a></sup>并搭建了自己的第一个网站。曾一度想成为一名程序员，但到目前为止我的编程水平还只会<em>复制粘贴</em>。</p>
 
@@ -135,7 +161,7 @@ twikoo.init({
 </script>
 <br/>
   <footer role="contentinfo">
-    <address class="copyright">&copy; zhufacai.net<q>朱发财</q> 2018 - 2023</address>
+    <address class="copyright" style="display: inline;">&copy; zhufacai.net<q>朱发财</q> 2018 - <p id="current-year" style="display: inline;"></p></address>
     <p>本站日PV<span title="含本人每天手动刷PV 99999 次">10万+</span>，托管在<q><a href="http://vercel.com/"><abbr title="Vercel 是一个零配置的静态资源和无服务器云计算(serverless)部署平台。">Vercel</abbr></a></q>上</p>
   </footer>
 </div>
