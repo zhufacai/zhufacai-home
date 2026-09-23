@@ -4,7 +4,7 @@ body {font-family:'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microso
 u:lang(zh) {border-bottom: 1px solid;text-decoration: none;padding-bottom: .05em;}
 ruby rt {font-size: .56em;}
 a {color:#0645AD;}
-/*a::after {display: inline-block;width:10px;height:10px;margin-left:2px;vertical-align:2px;content:"";background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC') no-repeat 0 0;}
+/*a::after {display: inline-block;width:10px;height:10px;margin-left:2px;vertical-align:2px;content:"";background:url('data:image/png;base64,iVBORwKGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC') no-repeat 0 0;}
 */
 del {color: #999;}
 header {padding:2.5em 0 1.5em;border-bottom: 1px solid #ddd;}
@@ -27,7 +27,7 @@ article .notes {font-size: .875em;}
 article blockquote p {
 	font-style: italic;
 }
-.ico-voice {display: inline-block;width:16px;height:16px;cursor:pointer;font:0/0 arial;color:transparent;vertical-align:middle;margin:0 3px;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAL1JREFUeNpi/P//P8NAAiZqGMLIyEgMfg/EDchiYIAnBOaD5IjBuPSj8feDrAPi80AsALcbhwHzIfJkO2A+1DJ0UAAVX4/PATDN5DoArh9HyPRD5RywOQBZ838kC8DBRoQDUPQjicODHUq/B4UCsgP+Y8NIFoCI/Xgc8B8HhoH/0DSAEcWk5AIHCjMLsv6HVM2G9CoHDlBoF7J+eUTkDJJEOGiy4aAoiOhfFFOKiQSgeG9AFgDpZRzo6hggwAB+dLmEEryeKgAAAABJRU5ErkJggg==') no-repeat 0 0;}
+.ico-voice {display: inline-block;width:16px;height:16px;cursor:pointer;font:0/0 arial;color:transparent;vertical-align:middle;margin:0 3px;background:url('data:image/png;base64,iVBORwKGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAL1JREFUeNpi/P//P8NAAiZqGMLIyEgMfg/EDchiYIAnBOaD5IjBuPSj8feDrAPi80AsALcbhwHzIfJkO2A+1DJ0UAAVX4/PATDN5DoArh9HyPRD5RywOQBZ838kC8DBRoQDUPQjicODHUq/B4UCsgP+Y8NIFoCI/Xgc8B8HhoH/0DSAEcWk5AIHCjMLsv6HVM2G9CoHDlBoF7J+eUTkDJJEOGiy4aAoiOhfFFOKiQSgeG9AFgDpZRzo6hggwAB+dLmEEryeKgAAAABJRU5ErkJggg==') no-repeat 0 0;}
 .ico-voice:hover {background-position: -16px 0;}
 .introduction .photo {margin:0 0 2em 2em;border:1px solid #ccc;padding:2px;}
 footer {font-size:.75em;border-top:1px solid #ddd;padding:1em 0 2em;text-align: center;}
